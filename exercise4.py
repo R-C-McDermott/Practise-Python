@@ -1,0 +1,5 @@
+num = int(input("Please give a number:\n"))
+x = list(range(1, num+1))
+print(x)
+userlist = list(filter(lambda i: num % i ==0, x))
+print(userlist)
